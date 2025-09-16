@@ -1,4 +1,4 @@
-# 🍰 ejercicio programación 3 - Dulce Miga - Pastelería Artesanal
+# Ejercicio programación 3 - Dulce Miga - Pastelería Artesanal
 
 Sitio web oficial de **Dulce Miga**, pastelería artesanal con tradición desde 1992. Desarrollado con HTML5 semántico y CSS3 puro, sin frameworks ni JavaScript.
 
