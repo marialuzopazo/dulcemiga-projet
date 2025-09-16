@@ -40,7 +40,7 @@ body {
     background-color: var(--color-light);
 }
 
-/* Tipografía */
+/* la Tipografía */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     font-weight: 700;
@@ -66,7 +66,7 @@ a:hover {
     color: var(--color-accent);
 }
 
-/* Layout */
+/* el Layout */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -74,7 +74,7 @@ a:hover {
     padding: 0 var(--spacing-sm);
 }
 
-/* Header y Navegación */
+/*el Header y la nav Navegación */
 header {
     background-color: var(--color-light);
     box-shadow: var(--box-shadow);
@@ -103,7 +103,7 @@ header {
     width: auto;
 }
 
-/* Menú hamburguesa - Versión optimizada */
+/* menu hambur */
 .nav-toggle {
     position: absolute;
     opacity: 0;
@@ -147,7 +147,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Botón de cerrar para móviles */
+/* Botón de cerrar para móviles - revisar porque no funca*/
 .close-menu {
     display: none;
     position: absolute;
@@ -190,7 +190,7 @@ nav a:hover::after {
     color: var(--color-text-light);
 }
 
-/* Footer */
+/* el beio Footer */
 footer {
     background-color: var(--color-dark);
     color: var(--color-text-light);
@@ -268,7 +268,7 @@ footer {
     padding: var(--spacing-lg) 0;
 }
 
-/* Hero Content - Estilo base para todas las páginas */
+/*  Estilo base para todas las páginas */
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
@@ -290,7 +290,7 @@ footer {
     margin-right: auto;
 }
 
-/* Estilos para hero sections (compartidos) */
+/* Estilos para hero ) */
 .hero-home, .hero-services, .hero-team, .hero-contact, .hero-gallery {
     background: linear-gradient(var(--color-overlay), var(--color-overlay)), url('../img/banner.jpg');
     background-size: cover;
@@ -327,7 +327,7 @@ footer {
 .delay-2 { animation-delay: 0.4s; }
 .delay-3 { animation-delay: 0.6s; }
 
-/* Responsive - Menú hamburguesa corregido */
+/* el menu hambur corregido por enesima vez */
 @media (max-width: 768px) {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.75rem; }
@@ -340,7 +340,7 @@ footer {
         transform: translateY(-50%);
     }
     
-    /* Menú móvil - Versión optimizada y corregida */
+    /* Menú móvil a */
     nav ul {
         position: fixed;
         flex-direction: column;
@@ -398,4 +398,5 @@ footer {
     .close-menu {
         display: none;
     }
+
 }
