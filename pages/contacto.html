@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Dulce Miga</title>
+    <meta name="description" content="Contactá con Dulce Miga pastelería artesanal">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <!-- Header Corregido SIN JS -->
+<header>
+    <div class="container header-container">
+       <a href="../index.html" class="logo">
+    <img src="../img/logo4.png" alt="Dulce Miga - Pastelería Artesanal" width="200" height="80">
+</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">☰</label>
+        <nav>
+            <label for="nav-toggle" class="close-menu">✕</label>
+                <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="equipo.html">Equipo</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+</ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+    <section class="hero-contact">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="fade-in">Contacto directo</h1>
+            <p class="fade-in delay-1">en este espacio los invitamos a que se pongan en contacto con nosotros, completen el formulario y nos comunicaremos pronto con ustedes</p>
+            <a href="https://www.facebook.com/profile.php?id=61580551780220" class="btn fade-in delay-2">ir a facebook</a>
+        </div>
+    </div>
+</section>
+
+        <!-- Contact Section -->
+        <section class="contact section-padding">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Información de contacto</h2>
+                        
+                        <div class="contact-item">
+                            <h3>Dirección</h3>
+                            <p>Colón 332, San Nicolás de los Arroyos, Buenos Aires</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Teléfono</h3>
+                            <p>+54 9 3364 000001</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p>info@dulcemiga.com</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Horarios de atención</h3>
+                            <p>Lunes a Viernes: 8:00 - 20:00</p>
+                            <p>Sábados: 8:00 - 14:00</p>
+                            <p>Domingos: 8:00 - 14:00</p>
+                        </div>
+                        
+                        <div class="social-contact">
+                            <h3>Seguinos en redes</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/profile.php?id=61580551780220" aria-label="Facebook"><img src="../img/iconos/facebook.png" alt="Facebook"></a>
+                                <a href="https://www.instagram.com/" aria-label="Instagram"><img src="../img/iconos/instagram.png" alt="Instagram"></a>
+                                <a href="https://web.whatsapp.com/" aria-label="WhatsApp"><img src="../img/iconos/whatsapp.png" alt="WhatsApp"></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h2>Envíanos un mensaje</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nombre completo *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Teléfono (opcional)</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Asunto *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Seleccionar asunto</option>
+                                    <option value="consulta">Consulta general</option>
+                                    <option value="pedido">Pedido especial</option>
+                                    <option value="evento">Catering para eventos</option>
+                                    <option value="reclamo">Reclamo o sugerencia</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje *</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Enviar mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2 class="section-title">Nuestra ubicación</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1670.121373395921!2d-60.227111!3d-33.335722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7679000000000%3A0x1234567890abcdef!2sCol%C3%B3n%20332%2C%20San%20Nicol%C3%A1s%20de%20los%20Arroyos%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1234567890123!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dulce Miga</h3>
+                <address>
+                    Colón 332, San Nicolás de los Arroyos<br>
+                    Cel: +54 9 3364 000001<br>
+                    Email: info@dulcemiga.com
+                </address>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Horarios</h3>
+                <p>Lunes a Viernes: 8:00 - 20:00</p>
+                <p>Sábados: 8:00 - 14:00</p>
+                <p>Domingos: 8:00 - 14:00</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Seguinos en redes</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61580551780220" aria-label="Facebook">
+                        <img src="../img/iconos/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <img src="../img/iconos/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://web.whatsapp.com/" aria-label="WhatsApp">
+                        <img src="../img/iconos/whatsapp.png" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dulce Miga - Pastelería Artesanal. Todos los derechos reservados.</p>
+            <p class="portfolio-link">
+                <a href="https://www.behance.net/gallery/234745483/web-desing-html-css" target="_blank" rel="noopener">
+                    Ver proyecto en Behance
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

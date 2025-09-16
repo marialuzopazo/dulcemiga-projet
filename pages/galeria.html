@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Dulce Miga</title>
+    <meta name="description" content="Galería de productos de Dulce Miga pastelería artesanal">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+</head>
+<body>
+    <!-- Header Corregido SIN JS -->
+<header>
+    <div class="container header-container">
+        <a href="../index.html" class="logo">
+    <img src="../img/logo4.png" alt="Dulce Miga - Pastelería Artesanal" width="200" height="80">
+</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">☰</label>
+        
+        <nav>
+            <label for="nav-toggle" class="close-menu">✕</label>
+                <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="equipo.html">Equipo</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="galeria.html">Galería</a></li>
+</ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+      <section class="hero-gallery">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="fade-in">Bienvenidos a la galería de nuestras especialidades</h1>
+            <p class="fade-in delay-1">conozca nuestros mejores productos</p>
+            <a href="contacto.html" class="btn fade-in delay-2">hacer un pedido</a>
+        </div>
+    </div>
+</section>
+
+        <!-- Gallery Section -->
+        <section class="gallery section-padding">
+            <div class="container">
+                <h2 class="section-title">galería de nuestras delicias</h2>
+                <p class="gallery-intro">cada producto en esta galería fue seleccionado cuidadosamente de entre los productos que más disfrutan degustar nuestros clientes</p>
+                
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="tortas">Tortas</button>
+                    <button class="filter-btn" data-filter="panes">Panes</button>
+                    <button class="filter-btn" data-filter="postres">Postres</button>
+                    <button class="filter-btn" data-filter="especiales">Especiales</button>
+                </div>
+                
+                <div class="gallery-grid">
+                    <!-- Imagen 1 -->
+                    <div class="gallery-item fade-in tortas">
+                        <img src="../img/productos/torta-chocolate.jpg" alt="Torta dtradicional selva negra" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Torta Selva Negra</h3>
+                            <p> su increíble sabor tradicional, se debe al bizcochuelo de chocolate remojado en licor, a la crema batida entre capa y capa, y a las cerezas que la acompañan y coronan.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 2 -->
+                    <div class="gallery-item fade-in delay-1 panes">
+                        <img src="../img/productos/pan-artesanal.jpg" alt="Pan artesanal recién horneado" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Pan Artesanal</h3>
+                            <p>con su horneado tradicional este pan, es un clasico elegido por todos nuestros clientes para acompañar cualquier comida.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 3 -->
+                    <div class="gallery-item fade-in delay-2 postres">
+                        <img src="../img/productos/postres-finos.jpg" alt="chocolates finos, gourmet para agasajar en cualquier oportunidad" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Chocolates finos</h3>
+                            <p>Selección de chocolates gourmet para agasajar cualquier ocasion especial</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 4 -->
+                    <div class="gallery-item fade-in delay-3 tortas">
+                        <img src="../img/productos/muffins-gourmet.jpg" alt="Muffins de frutos rojos, frescos y riquisimos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Muffins de Frutos Rojos</h3>
+                            <p>ideales complementos para meriendas en donde los más pequeños pueden disfrutar e incorporar frutos frescos</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 5 -->
+                    <div class="gallery-item fade-in especiales">
+                        <img src="../img/productos/box-sorpresa.jpg" alt="selección de las mejotes tortas y tartas dulces" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Selección de tortas y tartas dulces</h3>
+                            <p>Conocé nuestra selección de tartas y tortas dulces que enamoran cualquier paladar</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 6 -->
+                    <div class="gallery-item fade-in delay-1 panes">
+                        <img src="../img/productos/medialunas-premium.jpg" alt="Medialunas dulces de manteca" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Medialunas Clasicas</h3>
+                            <p>Elaboradas con manteca de primera calidad, estas medialunas dulces bañadas en almibar, son el perfecto complemento para acompañar cualquier bebida</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 7 -->
+                    <div class="gallery-item fade-in delay-2 especiales">
+                        <img src="../img/productos/promo-madres.jpg" alt="Promoción de un box para el día de la madre" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Box especial del Día de la Madre</h3>
+                            <p>acompañamos y agasajamos a mamá con una elección variada de nuestras masas más finas</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Imagen 8 -->
+                    <div class="gallery-item fade-in delay-3 postres">
+                        <img src="../img/productos/ensaimada.jpg" alt="ensaimada tradicional con crema pastelera" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Ensaimada rellena</h3>
+                            <p>Elaboramos, distintos tamaños de ensaimadas tradicionales rellenas con crema pastelera</p>
+                        </div>
+                    </div>
+
+                    <!-- Imagen 9 -->
+                    <div class="gallery-item fade-in delay-3 postres">
+                        <img src="../img/productos/catering.jpg" alt="mesa de catering para eventos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <h3>Catering</h3>
+                            <p>Elaboramos,a pedido un catering variado para mesas dulces. ideal para eventos empresariales</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Lightbox (solo CSS) -->
+        <div class="lightbox" id="imageLightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-content" id="lightboxImage" alt="Imagen ampliada">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dulce Miga</h3>
+                <address>
+                    Colón 332, San Nicolás de los Arroyos<br>
+                    Cel: +54 9 3364 000001<br>
+                    Email: info@dulcemiga.com
+                </address>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Horarios</h3>
+                <p>Lunes a Viernes: 8:00 - 20:00</p>
+                <p>Sábados: 8:00 - 14:00</p>
+                <p>Domingos: 8:00 - 14:00</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Seguinos en redes</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61580551780220" aria-label="Facebook">
+                        <img src="../img/iconos/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
+                        <img src="../img/iconos/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://web.whatsapp.com/" aria-label="WhatsApp">
+                        <img src="../img/iconos/whatsapp.png" alt="WhatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dulce Miga - Pastelería Artesanal. Todos los derechos reservados.</p>
+            <p class="portfolio-link">
+                <a href="https://www.behance.net/gallery/234745483/web-desing-html-css" target="_blank" rel="noopener">
+                    Ver proyecto en Behance
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
