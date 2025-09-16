@@ -1,6 +1,9 @@
 # 🍰 ejercicio programación 3 - Dulce Miga - Pastelería Artesanal
 
 Sitio web oficial de **Dulce Miga**, pastelería artesanal con tradición desde 1992. Desarrollado con HTML5 semántico y CSS3 puro, sin frameworks ni JavaScript.
+
+<img width="1584" height="396" alt="bannerseito" src="https://github.com/user-attachments/assets/09365b3a-0f80-4a48-b85c-4396bb25ce24" />
+
 ---
 ## Características
 
@@ -23,7 +26,8 @@ Sitio web oficial de **Dulce Miga**, pastelería artesanal con tradición desde 
 - **CSS3**: Flexbox, Grid, Animaciones, Variables CSS
 - **Mobile First**: Enfoque responsive design
 - **Git**: Control de versiones
-- visual studio code y behance para subir boceto e imagenes del proyecto
+- visual studio code y behance para subir boceto e imagenes del proyecto:
+  https://www.behance.net/gallery/234745483/web-desing-html-css
 
 ## Páginas del Sitio
 
