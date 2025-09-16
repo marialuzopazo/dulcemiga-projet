@@ -1,4 +1,3 @@
-/* equipo.css - Versión optimizada */
 .team-intro {
     text-align: center;
     max-width: 800px;
@@ -95,4 +94,5 @@
     .values-grid {
         grid-template-columns: 1fr;
     }
+
 }
